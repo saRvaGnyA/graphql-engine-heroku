@@ -15,4 +15,4 @@ ENV HASURA_GRAPHQL_PG_CONNECTIONS=15
 
 CMD HASURA_GRAPHQL_METADATA_DATABASE_URL=$DATABASE_URL graphql-engine \
     serve \
-    --server-port $PORT
+    --server-port 1337
